@@ -104,6 +104,16 @@
   font-family: 'Questrial', sans-serif;
   margin-top: 50px; }
 
+.title__animation {
+  background-color: rgba(20, 28, 35, 0.98);
+  font-family: 'Questrial', sans-serif; }
+  .title__animation--bue {
+    color: #368dc6;
+    font-size: 30px; }
+  .title__animation--red {
+    color: #f06e7e;
+    font-size: 30px; }
+
 .circle {
   z-index: -1; }
   .circle__one {
@@ -199,12 +209,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(20, 28, 35, 0.9);
-  font-family: 'Questrial', sans-serif;
-  font-size: 40px;
   padding: 80px;
   text-align: center;
-  color: #368dc6;
   opacity: 0;
   -webkit-transition: all .35s;
   transition: all .35s;
@@ -213,7 +219,8 @@
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  background-color: rgba(20, 28, 35, 0.9); }
 
 .button__animation {
   position: absolute;
@@ -229,6 +236,10 @@
 
 .content__item:hover .animation {
   opacity: 1; }
+
+@media only screen and (max-device-width: 700px) {
+  .title__h2 {
+    color: #3adb76; } }
 
 .flex-center {
   display: -webkit-box;

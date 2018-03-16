@@ -61,6 +61,24 @@
       font-family: 'Questrial', sans-serif;
       margin-top: 50px;
     }
+
+    &__animation{
+      background-color: rgba(20, 28, 35, .98);
+      font-family: 'Questrial', sans-serif;
+
+      &--bue{
+        color: #368dc6;
+        font-size: 30px;
+
+
+      }
+      &--red{
+        color: #f06e7e;
+        font-size: 30px;
+
+
+      }
+    }
 }
 
 
@@ -157,25 +175,26 @@
 
     }
   }
-.animation{
+
+.animation {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(20, 28, 35, .9);
-  font-family: 'Questrial', sans-serif;
-  font-size: 40px;
   padding: 80px;
   text-align: center;
-  color: #368dc6;
   opacity: 0;
   transition: all .35s;
   display: flex;
   justify-content: center;
+  background-color: rgba(20, 28, 35, .9);
+
 }
 
-.button__animation{
+
+
+  .button__animation{
   position: absolute;
   top: 80%;
   width: 150px;
