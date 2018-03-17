@@ -15,14 +15,16 @@
 	 color: #fff;
 	 z-index: 10;
 	 font-family: 'Questrial', sans-serif;
+	 filter: drop-shadow(0 3px 6px rgba(0,0,0,1));
 
  }
 .button__back:hover {
 	transform: rotate(8deg);
 	transition: 1s;
 	border-color: rgba(20, 28, 35, 1);
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: rgba(255, 255, 255, 0.2);
 	color: rgba(20, 28, 35, 1);
+	filter: none;
 }
 .site--wrap{
 	display: flex;

@@ -152,6 +152,7 @@
 
 .content {
   width: 100%;
+  max-width: 1290px;
   height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -236,6 +237,41 @@
 
 .content__item:hover .animation {
   opacity: 1; }
+
+.contact {
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  z-index: -2;
+  background-color: #081318; }
+
+.triangles__item {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  right: 0px;
+  left: 1100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 0;
+  background: #141c23;
+  z-index: 1;
+  -webkit-box-shadow: 0 0 45px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 45px rgba(0, 0, 0, 0.6); }
 
 @media only screen and (max-device-width: 700px) {
   .title__h2 {
